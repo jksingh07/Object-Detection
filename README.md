@@ -35,5 +35,46 @@ The repository includes the following files:
 - Various **.pkl** files: These files contain the dataset used for training the machine learning models. They are essential for retraining or further optimizing the models.
 
 
+## Usage
 
+To utilize the Object-Detection system, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Set up the Raspberry Pi module with the necessary dependencies and libraries.
+3. Connect the camera module to the Raspberry Pi.
+4. Install any required Python libraries and dependencies mentioned in the project's documentation.
+5. Run the main program or script on the Raspberry Pi module.
+6. The camera will capture the user's surroundings.
+7. The object detection algorithm will process the captured images and identify objects.
+8. The recognized objects will be converted into speech using the text-to-speech module.
+9. The speech output will be delivered to the visually impaired individual via Bluetooth earphones or any preferred audio output device.
+10. Please ensure that you follow all safety precautions and guidelines while using the Object-Detection system. 
+
+## Limitations
+
+While the Object-Detection project aims to assist visually impaired individuals, it is important to note its limitations:
+
+- The system relies on the accuracy of the object detection and recognition algorithms. While efforts have been made to achieve high accuracy, there may still be cases where objects are not correctly identified or recognized.
+- The system's performance may be affected by lighting conditions, object distance, and variations in object appearances.
+- The prototype is designed to recognize specific types of objects based on the trained machine learning models. It may not accurately identify objects that are not part of the training dataset.
+- The system's effectiveness may vary depending on the user's specific visual impairment and individual needs.
+
+## Future Enhancements
+
+The Object-Detection project can be further enhanced in the following ways:
+
+- Continuous improvement of object detection and recognition algorithms to enhance accuracy and reliability.
+- Integration of additional sensory input, such as audio feedback or haptic feedback, to provide a more immersive experience for visually impaired individuals.
+- Incorporation of real-time object tracking and scene understanding to provide more context-aware information.
+- Integration with cloud services or machine learning frameworks for seamless updates and model retraining.
+- Collaboration with accessibility organizations and user feedback to incorporate user requirements and address specific needs.
+
+
+## Acknowledgements
+
+The Object-Detection project would like to acknowledge the following:
+
+- *OpenCV:* An open-source computer vision library used for image processing and object detection.
+- *TensorFlow:* An open-source machine learning framework used for training and deploying deep learning models.
+- Various open-source libraries and resources that contributed to the development and success of the project.
 
